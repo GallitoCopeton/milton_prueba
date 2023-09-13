@@ -1,0 +1,5 @@
+.gitlab
+.idea
+.vscode
+.DS_Store
+*.env.development
