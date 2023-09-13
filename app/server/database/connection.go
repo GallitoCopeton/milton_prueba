@@ -37,7 +37,7 @@ func Create(createDB *Connection) *Database {
 	db.SetConnMaxIdleTime(createDB.MaxConnIdleTime)
 	db.SetConnMaxLifetime(createDB.MaxConnMaxLifetime)
 
-	createDB.Logger.Println("Database connection is now open.")
+	createDB.Logger.Println("Database connection is now open again.")
 
 	return NewDB(db, createDB)
 }
